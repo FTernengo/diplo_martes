@@ -1,3 +1,5 @@
 Cabecera
 Diseno
 crear programa
+disenar logo de pagina
+crear contenido
