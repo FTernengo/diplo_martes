@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer HTML</title>
+    <title>PAGINA DE PRUEBA</title>
 </head>
 <body>
-    <h1>BIENVENIDOS</h1>
-    <h2>La empresa</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis doloremque repudiandae inventore obcaecati sit explicabo, sunt pariatur voluptate tenetur. Ipsam magnam dolore minus facilis at assumenda, voluptate repellendus similique!<a href="https://google.com/" target="_blank">Click Aqui</a></p>
-    <h3>LISTAS</h3>
-    <h4>Lista ordenada</h4>
+    <h1>ANALISIS DE PELICULAS</h1>
+    <h2>Pelicula del dia: POBRES CRIATURAS</h2>
+    <p>Esta pelicula trata sobre...<a href="https://google.com/" target="_blank"> Click Aqui </a></p>
+    <h3>ACTORES</h3>
     <ol>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>EMMA STONE</li>
+        <li>SOFIA BURGA</li>
+        <li>GIRI</li>
     </ol>
     <h4>Lista desordenada</h4>
     <ul>
@@ -22,6 +21,43 @@
         <li>4</li>
         <li>o</li>
     </ul>
-<p>FIN !! Saludoss</p>
+    <img src="El Chalten.png" alt="El chalten">
+    <!--formularios-->
+    <!-- nombre y apellido -->
+    <form action="/datosformulario.txt" method="post">
+        <p>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+        </p>
+        <label>Apellido</label>
+        <input type="text" name="Apellido" placeholder="Ingrese su Apellido"/> 
+        </p>
+        <!-- contrasena -->
+        <p><label for="pass">Contrasena</label>
+        <input type="password" name="pass">
+        </p>
+        <!-- sexo -->
+        <p>             
+            <label for="sexo">Sexo</label>
+            <ul>
+                <li>
+                    <label>Hombre</label>
+                    <input type="radio" name="Sexo" value="hombre">
+                <li>
+                    <label>Mujer</label>
+                    <input type="radio" name="Sexo" value="Mujer">
+                <li>
+                    <label>Prefiero no definirlo</label>
+                    <input type="radio" name="Sexo" value="Indefinido">
+                </li>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" name="Borrar">
+        </p>
+    </form>
+    <p>GRACIAS POR LEER SALUDOS!</p>
 </body>
 </html>
