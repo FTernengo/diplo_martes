@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+        </p>
+        <p>
+            Apellido <input type="text" name="apellido" placeholder="Ingrese su apellido" required/>
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" required placeholder="Contraseña"/>
+        </p>
+        <p>
+            <label for="Sexo">Sexo</label>
+            <ul>
+                <li>
+                    Hombre<input type="radio" name="Sexo" value="Hombre">
+                </li>
+                <li>
+                    Mujer <input type="radio" name="Sexo" value="Mujer">
+                </li>
+                <li>
+                    Indefinido <input type="radio" name="Sexo" value="Indefinido">
+                </li>
+            </ul>
+        </p>
+        <p>
+            Hobbies
+            <ul>
+                <li>Bailar<input type="checkbox" name="hobbies" value="Bailar"></li>
+                <li>Cantar <input type="checkbox" name="hobbies" value="Cantar"></li>
+                <li>Nadar <input type="checkbox" name="hobbies" value="nadar"></li>
+            </ul>
+        </p>
+        <p>
+            <label for="titulo">Titulo</label>
+            <p>
+            <select name="titulo">
+                <option value="Primario">Primario</option>
+                <option value="Secundario">Secundario</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
+            </select>
+        </p>
+        </p>
+        
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <p>
+            <textarea name="Comentarios" id="" cols="30" rows="5"></textarea> </p>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" id="">
+            <input type="reset" value="Boton de Arrepentimiento">
+        </p>
+    </form>
+</body>
+</html>
