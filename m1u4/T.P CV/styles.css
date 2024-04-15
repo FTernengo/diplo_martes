@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'monsterrat';
+    background-color: grey;
+    color: black;
+}
+h1{
+    font-family: 'montserrat';
+    font-style: normal;
+    color: greenyellow;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+
+h2{
+    font-family: 'montserrat';
+    font-style: normal;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+}
+
+.Imagen{
+    width: 300px;
+    height: 300px;
+    margin:auto
+
+}
+.img{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+
+}
+
+H3{
+    font-weight: 200;
+    font-family: 'monsterrat';
+    font-size: 20px;
+    font-style: italic;
+}
+
+.listas{
+    font-family: 'montserrat';
+    font-weight: 100;
+}
+
+p{
+    font-family: 'montserrat';
+    font-style: normal;
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+    font-weight: 100;
+
+}
+
+.destacados{
+    font-style: italic;
+    font-weight: bolder;
+    color:greenyellow;
+}
+
+input{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    border-top: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+    border-radius: 2px;
+    background-color: black;
+    color: greenyellow;
+    
+}
+
+option{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    border-top: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+    border-radius: 2px;
+    background-color: black;
+    color: greenyellow;
+}
+
+textarea{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    border-top: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+    border-radius: 2px;
+    background-color: black;
+    color: greenyellow;
+}
+
+label{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    border-right: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+    border-radius: 2px;
+    background-color: grey;
+    color: black;
+}
+
+select{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    border-right: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+    border-radius: 2px;
+    background-color: black;
+    color: greenyellow;
+}
+.submit{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    border-top: 1px solid  whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-radius: 2px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.formli{
+    font-size: small;
+    color: black;
+}
